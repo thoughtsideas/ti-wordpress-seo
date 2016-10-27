@@ -1,0 +1,24 @@
+{
+	"name": "thoughtsideas/ti-wordpress-seo",
+	"type": "wordpress-plugin",
+	"license": "",
+	"description": "Tweak WordPress SEO plugin for simplicity.",
+	"homepage": "https://github.com/thoughtsideas/ti-wordpress-seo/",
+	"authors": [
+		{
+			"name": "Michael Bragg",
+			"homepage": "http://www.michaelbragg.net",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"wordpress",
+		"composer",
+		"wp",
+		"seo"
+	],
+	"minimum-stability": "dev",
+	"require-dev": {},
+	"require": {},
+	"version": "0.1.0"
+}
