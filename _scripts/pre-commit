@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# Pre Commit Hook.
+
+# Remove un-staged changes.
+git stash -q --keep-index
+
+# Run QA script.
+./_scripts/qa
+QA=$?
+
+# Apply un-staged changes.
+git stash pop -q
+
+# Get our test QA results.
+[ $QA -ne 0 ] && exit 1
+
+# If test pass exit successfully.
+exit 0
