@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# Quality Assurance tests
+
+# Install coding standards
+./vendor/bin/phpcs --config-set colors 1
+./vendor/bin/phpcs --config-set show_progress 1
+
+# Run tests
+echo "Running WordPress PHP Coding Standards test"
+./vendor/bin/phpcs ./

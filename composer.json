@@ -1,10 +1,16 @@
 {
 	"name": "thoughtsideas/ti-wordpress-seo",
 	"type": "wordpress-plugin",
-	"license": "",
+	"license": "GPL-2.0+",
 	"description": "Tweak WordPress SEO plugin for simplicity.",
 	"homepage": "https://github.com/thoughtsideas/ti-wordpress-seo/",
 	"authors": [
+		{
+			"name": "Thoughts & Ideas",
+			"homepage": "http://www.thoughtsandideas.co.uk",
+			"email": "hello@thoughtsandideas.co.uk",
+			"role": "Owner"
+		},
 		{
 			"name": "Michael Bragg",
 			"homepage": "http://www.michaelbragg.net",
@@ -18,6 +24,17 @@
 		"seo"
 	],
 	"minimum-stability": "dev",
-	"require-dev": {},
-	"require": {}
+	"require": {},
+	"require-dev": {
+		"thoughtsideas/ti-wpcs": "*"
+	},
+	"scripts": {
+		"config-ti-wpcs": [
+			"\"vendor/bin/phpcs\" --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/frenck/php-compatibility,../../../vendor/thoughtsideas/ti-wpcs",
+			"\"vendor/bin/phpcs\" --config-set default_standard TI-WPCS"
+		],
+		"post-install-cmd": "composer config-ti-wpcs",
+		"post-update-cmd": "composer config-ti-wpcs",
+		"test": "_scripts/qa"
+	}
 }
