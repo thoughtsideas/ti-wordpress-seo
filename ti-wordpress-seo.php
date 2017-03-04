@@ -180,10 +180,7 @@ class TI_WordPress_SEO {
 	 */
 	public function remove_seo_score() {
 
-		$css = '<style>#keyword-score { display: none; }</style>';
-
-		echo $css;
-		wp_add_inline_style( 'remove-seo-score', $css );
+		wp_add_inline_style( 'wp-admin', '<style>#keyword-score { display: none; }</style>' );
 
 	}
 
