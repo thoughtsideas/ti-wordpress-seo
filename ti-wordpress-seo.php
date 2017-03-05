@@ -180,7 +180,7 @@ class TI_WordPress_SEO {
 	 */
 	public function remove_seo_score() {
 
-		wp_add_inline_style( 'wp-admin', '<style>#keyword-score { display: none; }</style>' );
+		wp_add_inline_style( 'wp-admin', '#keyword-score { display: none; }' );
 
 	}
 
