@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/thoughtsideas/ti-wordpress-seo/
  * Description: Tweak WordPress SEO plugin for simplicity.
  * Author: Michael Bragg <michael@michaelbragg.net>
- * Version: 0.1.0
+ * Version: 1.0.0
  *
  * @package TI\WordPressSEO
  */
@@ -20,7 +20,7 @@ class TI_WordPress_SEO {
 	 * @since 0.1.0
 	 * @var   string
 	 */
-	const VERSION = '0.1.0';
+	const VERSION = '1.0.0';
 
 	/**
 	 * Hold class instance.
