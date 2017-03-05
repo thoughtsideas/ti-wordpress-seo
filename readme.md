@@ -1,6 +1,6 @@
 # TI WordPress SEO
 
-[![Build Status](https://api.travis-ci.org/thoughtsideas/ti-wordpress-seo.png?branch=master)](https://travis-ci.org/thoughtsideas/ti-wordpress-seo)
+[![Build Status](https://travis-ci.org/thoughtsideas/ti-wordpress-seo.svg?branch=master)](https://travis-ci.org/thoughtsideas/ti-wordpress-seo)
 
 
 ## Testing
