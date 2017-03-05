@@ -24,7 +24,9 @@
 		"seo"
 	],
 	"minimum-stability": "dev",
-	"require": {},
+	"require": {
+		"php": ">=5.6"
+	},
 	"require-dev": {
 		"thoughtsideas/ti-wpcs": "*"
 	},

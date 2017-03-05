@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c658efe4bdc0791d531b76965d623b2b",
+    "content-hash": "4b2d6365cf4eb978fd64db62538b43b3",
     "packages": [],
     "packages-dev": [
         {
@@ -353,12 +353,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "e707fbb95b587009b748c333494835ad9985db32"
+                "reference": "9368f2587ded74ba69e949291dcdd447d86f8191"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/e707fbb95b587009b748c333494835ad9985db32",
-                "reference": "e707fbb95b587009b748c333494835ad9985db32",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/9368f2587ded74ba69e949291dcdd447d86f8191",
+                "reference": "9368f2587ded74ba69e949291dcdd447d86f8191",
                 "shasum": ""
             },
             "require": {
@@ -415,7 +415,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-01 21:48:20"
+            "time": "2017-03-05T09:42:14+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -472,12 +472,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thoughtsideas/ti-wpcs.git",
-                "reference": "2b2f8b36162aa90ed39bbd9e63ed9facdf10eac6"
+                "reference": "d736a519286bd3e8b937ebf17dc2dee090e14394"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thoughtsideas/ti-wpcs/zipball/2b2f8b36162aa90ed39bbd9e63ed9facdf10eac6",
-                "reference": "2b2f8b36162aa90ed39bbd9e63ed9facdf10eac6",
+                "url": "https://api.github.com/repos/thoughtsideas/ti-wpcs/zipball/d736a519286bd3e8b937ebf17dc2dee090e14394",
+                "reference": "d736a519286bd3e8b937ebf17dc2dee090e14394",
                 "shasum": ""
             },
             "require": {
@@ -501,7 +501,7 @@
                 "standards",
                 "wordpress"
             ],
-            "time": "2017-02-15 20:02:54"
+            "time": "2017-03-04T14:19:49+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
@@ -545,6 +545,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.6"
+    },
     "platform-dev": []
 }
